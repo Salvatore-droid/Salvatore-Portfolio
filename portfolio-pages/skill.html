@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Skills</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Terminal Loader (same as home page) -->
+    <div class="terminal-loader">
+        <div class="terminal-header">
+            <div class="terminal-title">system@portfolio:~</div>
+            <div class="terminal-controls">
+                <div class="control close"></div>
+                <div class="control minimize"></div>
+                <div class="control maximize"></div>
+            </div>
+        </div>
+        <div class="text">Loading skills matrix...</div>
+    </div>
+
+    <!-- Navigation (same as home page) -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo" id="logo">
+                <span class="logo-bracket">{</span>
+                <span class="logo-text">DevPort</span>
+                <span class="logo-bracket">}</span>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-links">Home</a></li>
+                <li class="nav-item active"><a href="#skills" class="nav-links">Skills</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-links">Projects</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-links">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="skills-container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-number">01.</span>
+                    <span class="title-text">My Technical Skills</span>
+                </h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="skills-content">
+                <div class="skills-intro">
+                    <p>Here's a comprehensive overview of my technical skills and the technologies I work with. I'm constantly learning and expanding my skill set to stay at the forefront of web development.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Backend Skills -->
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-server category-icon"></i>
+                            Backend Development
+                        </h3>
+                        <div class="skill-items">
+                            <div class="skill-item" data-skill-level="90">
+                                <div class="skill-icon">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Python</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" data-skill-level="85">
+                                <div class="skill-icon">
+                                    <i class="fas fa-bolt"></i> <!-- Django icon alternative -->
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Django</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" data-skill-level="80">
+                                <div class="skill-icon">
+                                    <i class="fas fa-flask"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Flask</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" data-skill-level="75">
+                                <div class="skill-icon">
+                                    <i class="fab fa-laravel"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Laravel</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" data-skill-level="70">
+                                <div class="skill-icon">
+                                    <i class="fab fa-ruby"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Ruby</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" data-skill-level="65">
+                                <div class="skill-icon">
+                                    <i class="fab fa-golang"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Go Lang</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">65%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frontend Skills -->
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-laptop-code category-icon"></i>
+                            Frontend Development
+                        </h3>
+                        <div class="skill-items">
+                            <div class="skill-item" data-skill-level="95">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">JavaScript</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">95%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" data-skill-level="90">
+                                <div class="skill-icon">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">React JS</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" data-skill-level="85">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">HTML5</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" data-skill-level="85">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">CSS3</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile & Other Skills -->
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-mobile-alt category-icon"></i>
+                            Mobile & Other
+                        </h3>
+                        <div class="skill-items">
+                            <div class="skill-item" data-skill-level="80">
+                                <div class="skill-icon">
+                                    <i class="fab fa-android"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Flutter</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" data-skill-level="75">
+                                <div class="skill-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Git</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" data-skill-level="70">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">SQL</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-item" data-skill-level="65">
+                                <div class="skill-icon">
+                                    <i class="fab fa-docker"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Docker</h4>
+                                    <div class="skill-level-bar">
+                                        <div class="skill-level-fill"></div>
+                                    </div>
+                                    <span class="skill-percent">65%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-extra">
+                <div class="skills-chart">
+                    <h3 class="chart-title">Skills Distribution</h3>
+                    <div class="chart-container">
+                        <canvas id="skillsChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="skills-timeline">
+                    <h3 class="timeline-title">Learning Journey</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023 - Present</div>
+                            <div class="timeline-content">
+                                <h4>Advanced Development</h4>
+                                <p>Mastering React, Django, and advanced JavaScript concepts. Exploring Go and mobile development with Flutter.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2022 - 2023</div>
+                            <div class="timeline-content">
+                                <h4>Full Stack Focus</h4>
+                                <p>Deep dive into backend development with Python, Flask, and frontend frameworks.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2021 - 2022</div>
+                            <div class="timeline-content">
+                                <h4>Foundational Skills</h4>
+                                <p>Learned HTML, CSS, JavaScript and basic programming concepts through various projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="particles" id="particles-js"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

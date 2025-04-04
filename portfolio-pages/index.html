@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="terminal-loader">
+        <div class="terminal-header">
+            <div class="terminal-title">system@portfolio:~</div>
+            <div class="terminal-controls">
+                <div class="control close"></div>
+                <div class="control minimize"></div>
+                <div class="control maximize"></div>
+            </div>
+        </div>
+        <div class="text">Initializing portfolio system...</div>
+    </div>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo" id="logo">
+                <span class="logo-bracket">{</span>
+                <span class="logo-text">DevPort</span>
+                <span class="logo-bracket">}</span>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item active"><a href="portfolio-pages/home.html" class="nav-links">Home</a></li>
+                <li class="nav-item"><a href="portfolio-pages/skill.html" class="nav-links">Skills</a></li>
+                <li class="nav-item"><a href="portfolio-pages/projects.html" class="nav-links">Projects</a></li>
+                <li class="nav-item"><a href="portfolio-pages/contact.html" class="nav-links">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="typing-text">
+                        <h1 class="hero-heading">
+                            <span class="greeting">Hi, I'm </span>
+                            <span class="name">Genius Etole</span>
+                        </h1>
+                        <div class="dynamic-text">
+                            <span class="typed-text"></span>
+                            <span class="cursor">&nbsp;</span>
+                        </div>
+                    </div>
+                    <p class="hero-description">
+                        A passionate developer creating innovative solutions through code. 
+                        Welcome to my digital space where technology meets creativity.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn pulse">View My Work</a>
+                        <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-avatar">
+                    <div class="avatar-container">
+                        <div class="avatar-wrapper">
+                            <img src="genius.png" alt="Your Avatar" class="avatar-img">
+                            <div class="avatar-halo"></div>
+                            <div class="avatar-dots">
+                                <span class="dot dot-1"></span>
+                                <span class="dot dot-2"></span>
+                                <span class="dot dot-3"></span>
+                                <span class="dot dot-4"></span>
+                            </div>
+                        </div>
+                        <div class="tech-icons">
+                            <i class="fab fa-html5" data-tooltip="HTML5"></i>
+                            <i class="fab fa-css3-alt" data-tooltip="CSS3"></i>
+                            <i class="fab fa-js" data-tooltip="JavaScript"></i>
+                            <i class="fab fa-react" data-tooltip="React"></i>
+                            <i class="fab fa-node-js" data-tooltip="Node.js"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <div class="mouse">
+                    <div class="scroller"></div>
+                </div>
+                <span>Scroll Down</span>
+            </div>
+        </section>
+    </main>
+
+    <div class="particles" id="particles-js"></div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

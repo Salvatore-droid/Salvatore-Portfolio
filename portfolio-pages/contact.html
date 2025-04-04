@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Terminal Loader -->
+    <div class="terminal-loader">
+        <div class="terminal-header">
+            <div class="terminal-title">system@portfolio:~</div>
+            <div class="terminal-controls">
+                <div class="control close"></div>
+                <div class="control minimize"></div>
+                <div class="control maximize"></div>
+            </div>
+        </div>
+        <div class="text">Initializing contact protocol...</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo" id="logo">
+                <span class="logo-bracket">{</span>
+                <span class="logo-text">DevPort</span>
+                <span class="logo-bracket">}</span>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-links">Home</a></li>
+                <li class="nav-item"><a href="skills.html" class="nav-links">Skills</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-links">Projects</a></li>
+                <li class="nav-item active"><a href="#contact" class="nav-links">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-number">03.</span>
+                    <span class="title-text">Get In Touch</span>
+                </h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3 class="contact-subtitle">Let's Connect</h3>
+                        <p class="contact-description">
+                            I'm currently open to new opportunities, collaborations, or just a friendly tech discussion. 
+                            Feel free to reach out through any of these channels.
+                        </p>
+
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="method-info">
+                                    <h4 class="method-title">Email Me</h4>
+                                    <a href="mailto:geniusokwemba53@gmail.com" class="method-value">geniusokwemba53@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="method-info">
+                                    <h4 class="method-title">Call Me</h4>
+                                    <a href="tel:+254748122367" class="method-value">+254 748122367</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="method-info">
+                                    <h4 class="method-title">Location</h4>
+                                    <span class="method-value">Nairobi, Kenya</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <h4 class="social-title">My Digital Presence</h4>
+                            <div class="social-links">
+                                <a href="https://github.com/Salvatore-droid" class="social-link" target="_blank" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/yourusername" class="social-link" target="_blank" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://twitter.com/yourusername" class="social-link" target="_blank" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://dev.to/yourusername" class="social-link" target="_blank" aria-label="Dev.to">
+                                    <i class="fab fa-dev"></i>
+                                </a>
+                                <a href="https://stackoverflow.com/users/youruserid" class="social-link" target="_blank" aria-label="Stack Overflow">
+                                    <i class="fab fa-stack-overflow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- GitHub Integration -->
+                    <div class="github-card">
+                        <h3 class="github-title">
+                            <i class="fab fa-github"></i> GitHub Activity
+                        </h3>
+                        <div class="github-stats">
+                            <div class="github-stat">
+                                <div class="stat-number" id="repoCount">0</div>
+                                <div class="stat-label">Repositories</div>
+                            </div>
+                            <div class="github-stat">
+                                <div class="stat-number" id="gistCount">0</div>
+                                <div class="stat-label">Gists</div>
+                            </div>
+                            <div class="github-stat">
+                                <div class="stat-number" id="followerCount">0</div>
+                                <div class="stat-label">Followers</div>
+                            </div>
+                        </div>
+                        <div class="github-repos">
+                            <h4 class="repos-title">Recent Activity</h4>
+                            <div class="repos-list" id="githubRepos">
+                                <!-- GitHub repos will be loaded here via JavaScript -->
+                                <div class="repo-skeleton">
+                                    <div class="skeleton-line"></div>
+                                    <div class="skeleton-line short"></div>
+                                </div>
+                                <div class="repo-skeleton">
+                                    <div class="skeleton-line"></div>
+                                    <div class="skeleton-line short"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://github.com/Salvatore-droid" class="btn secondary-btn github-btn" target="_blank">
+                            View Full Profile <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h3 class="form-title">Send Me a Message</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                            <div class="input-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                            <div class="input-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-input" required>
+                            <div class="input-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-textarea" required></textarea>
+                            <div class="input-border textarea-border"></div>
+                        </div>
+                        <div class="form-footer">
+                            <button type="submit" class="btn primary-btn form-submit">
+                                <span class="submit-text">Send Message</span>
+                                <span class="submit-icon">
+                                    <i class="fas fa-paper-plane"></i>
+                                </span>
+                            </button>
+                            <div class="form-status" id="formStatus"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Success Modal -->
+    <div class="contact-modal" id="contactModal">
+        <div class="modal-content">
+            <div class="modal-check">
+                <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                    <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+                    <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                </svg>
+            </div>
+            <h3 class="modal-title">Message Sent Successfully!</h3>
+            <p class="modal-text">Thank you for reaching out. I'll get back to you as soon as possible.</p>
+            <button class="btn primary-btn modal-close">Close</button>
+        </div>
+    </div>
+
+    <div class="particles" id="particles-js"></div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
