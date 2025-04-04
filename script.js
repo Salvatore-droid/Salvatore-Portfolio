@@ -535,7 +535,7 @@ if (document.querySelector('.contact')) {
             });
         
         // Fetch repositories
-        fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=3`)
+        fetch(`https://api.github.com/users/${Salvatore-droid}/repos?sort=updated&per_page=3`)
             .then(response => response.json())
             .then(repos => {
                 if (repos.message) return; // API error
